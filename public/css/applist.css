@@ -1,0 +1,60 @@
+/*.main {*/
+/*    margin: 0 20px !important;*/
+/*}*/
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+th {
+    padding: 10px;
+    border:1px solid black;
+}
+.w-5.h-5 {
+    height: 10px;
+    width: 10px;
+}
+
+.btn-success, .btn-warning {
+    padding: 2px 6px;
+    font-size: 14px;
+    margin: 0 0 4px 0;
+    border-radius: 2px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.dop__color {
+    background-color: darkseagreen;
+}
+.dop__color1 {
+    background-color: #cccccc;
+}
+
+.flex.justify-between.flex-1 {
+    display: none;
+}
+
+.editime {
+    color:#000000;
+}
+
+.editime:hover {
+    cursor: pointer;
+}

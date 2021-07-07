@@ -1,0 +1,152 @@
+#modal_message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+	background: rgba(0, 0, 0, 0.7);
+    display: block !important;
+}
+
+.message {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+	padding: 15em;
+}
+
+.message_body {
+	display: block;
+    width: 420px;
+	margin: 0 0;
+    background-color: #fff;
+    border-radius: 4px;
+	font-family: sans-serif;
+    padding: 0 40px 20px;
+}
+
+.message_title {
+    text-align: center;
+    margin: 5em 0 1em;
+	border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+.fail {
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    padding: 0.5em 0;
+    font-family: 'Russo One', sans-serif;
+    background-color: bisque;
+}
+.one__block_message {
+    text-align: center;
+    font-size: 15px;
+    padding: 0.5em 0;
+    /* font-weight: unset; */
+    font-family: 'Russo One', sans-serif;
+}
+.one__message_p {
+	display: flex;
+	font-size: 0.9em;
+    align-items: center;
+	margin: 0 1.4em;
+}
+.one__message_p a {
+	color: #333333;
+}
+.one__message_p span  {
+	padding: 0 6px;
+}
+
+.one__message_img img{
+    border-radius: 50%;
+    background-color: #f0f2f5;
+    width: 45px;
+    height: 45px;
+}
+.message_form {
+	padding: 0 1.8em;
+}
+
+#textarea-message {
+    height: 9em;
+    width: 100%;
+    font-size: 1em;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px;
+    border: 1px solid #999999;
+    margin: 0;
+    cursor: text;
+    outline: none;
+}
+
+.message_close {
+    top: 0.3em;
+    right: 0.3em;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 2em;
+    height: 1em;
+    width: 1em;
+    text-indent: 10em;
+    overflow: hidden;
+    border: 0;
+
+}
+.greet {
+    margin: -20px 0 30px;
+}
+.button__greet {
+    margin: 30px 0 30px;
+    padding: 9px 76px 11px;
+    color: #ffffff;
+    border: 1px solid #2e4f9e;
+    background-color: #2e4f9e;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 13px;
+    outline: none;
+    text-transform: uppercase;
+}
+.button__greet:hover {
+    /*background-color: #286ed6;*/
+    cursor: pointer;
+}
+.one__block_message button {
+    float: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.button__confirm {
+    margin: 20px 0 20px;
+    padding: 12px 76px 12px;
+    color: #ffffff;
+    width: 100%;
+    background-color: #ff3366;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 13px;
+    outline: none;
+    float: none;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    line-height: 1.6;
+    text-align: left;
+    margin: 10px 10px 22px;
+}
+.infodel__p {
+    text-align: center;
+    margin: 10px 10px 0;
+}
+
+@media (max-width: 900px) {
+    .message {
+        padding: 15em 0;
+    }
+}

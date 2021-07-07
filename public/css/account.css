@@ -1,0 +1,353 @@
+.account.setting {
+    padding: 0 20%;
+}
+.register {
+    margin: 0 5% 0 30%;
+    /*background-color: #eceaea;*/
+    border-radius: 4px;
+    /*padding: 40px 40px 40px;*/
+}
+.account__submit.submit_register {
+    padding: 12px 26px 12px;
+    width: 100%;
+}
+
+.one__mes_account{
+	border: 1px solid red;
+}
+.is_publish {
+    display: flex;
+    margin: 0 100px;
+}
+.is_pub {
+    margin: 4px 0 0 0;
+}
+
+.account__point, .account__radio {
+	margin: 12px 0;
+}
+
+.account__radio {
+	/*background-color: #f7f7f7;
+	border-radius: 4px;*/
+	margin: 10px 0;
+}
+.account__del{
+	display: flex;
+	background-color: #f7f7f7;
+	border-radius: 4px;
+    padding: 20px 16px 20px 0;
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    margin: 180px 0 60px;
+}
+.account__del a {
+	font-size: 13px;
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #999;
+    font-weight: normal;
+	text-decoration: none;
+	margin: 0 0 6px;
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+.account__del img {
+	width: 18px;
+	height: 18px;
+	margin: 0 16px;
+}
+
+.account__del a:hover{
+	color: #333;
+}
+.account__point:first-child {
+	margin: 0 0;
+}
+.account__h1{
+    padding: 10px 0 0;
+}
+.account__label, .label__smoke {
+	color #367fee;
+	font-weight: 900;
+    font-size: 13px;
+	color: #666666;
+	color: #000000;
+    font-family: sans-serif;
+	vertical-align: middle;
+}
+.account__label {
+	margin: 0 0 10px;
+}
+.account__label_private {
+	margin: 0 0 18px;
+	font-weight: 900;
+    font-size: 13px;
+    color: #666666;
+    color: #000000;
+    font-family: sans-serif;
+}
+}
+.label__smoke{
+    transition-property: color;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+.label__smoke:hover{
+    color: #000000;
+}
+.account__label_smoke, .account__label_gender{
+	display: flex;
+    padding: 12px 0;
+	border-radius: 4px;
+	background-color: #f7f7f7;
+	/*background-color: #eceaea;*/
+	/*justify-content: center;
+	align-content: space-between;*/
+}
+.account__label_smoke {
+    display: flex;
+    margin: 8px 0 22px;
+    padding: 15px;
+}
+
+.account__label_gender{
+	display: flex;
+	margin: 0 0 20px;
+    padding: 12px 24px;
+}
+.account__label_height, .account__label_height_1, .account__label_calendar  {
+	display: flex;
+    padding: 0 0 12px;
+}
+select {
+	font-size: 14px;
+    padding: 10px;
+    background-color: #fafafa;
+	border: 1px solid #999999;
+    border-radius: 2px;
+    outline: none;
+	transition-property: border-color, background-color;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.select__small:first-child, .select__medium   {
+	margin-right: 24px;
+}
+select:hover {
+	border: 1px solid #000000;
+	background-color: #ffffff;
+}
+.select__small {
+    width: 26%;
+}
+.select__medium {
+    width: 42%;
+
+}
+.select__big {
+    width: 100%;
+}
+.sm {
+	font-weight: 900;
+    font-size: 13px;
+    color: #666666;
+    padding: 10px 0;
+    font-family: sans-serif;
+}
+.account__label_smoke label {
+	padding: 0 48px 0 16px;
+}
+.account__input_smoke {
+	padding: 10px 20px;
+	transform:scale(1.5);
+	opacity:0.9;
+	cursor:pointer;
+	margin: 4px;
+}
+
+label.required:after
+{
+    color: red;
+	font-size: 1.6em;
+    content: " *";
+}
+
+.account__input {
+	width: 100%;
+	padding: 12px 16px;
+	margin: 8px 0;
+	font-size: 14px;
+	background-color: #fafafa;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 16px;
+	cursor: text;
+    outline: none;
+	transition-property: border-color, background-color;
+    transition-duration: .1s;
+}
+.account__input:hover {
+	border: 1px solid #000000;
+	background-color: #ffffff;
+}
+.account__input:focus::-webkit-input-placeholder {
+	color: transparent
+}
+.account__input:focus::-moz-placeholder {
+	color: transparent
+}
+.account__input:focus:-moz-placeholder {
+	color: transparent
+}
+.account__input:focus:-ms-input-placeholder {
+	color: transparent
+}
+
+.account__submit {
+    margin: 30px 0 0 0;
+	padding: 9px 26px 11px;
+    color: #ffffff;
+    border: 1px solid #367fee;
+    background-color: #367fee;
+	border-radius: 4px;
+	font-weight: 800;
+    font-size: 13px;
+	outline: none;
+    transition-property: background, border-color, cursor;
+    transition-duration: .1s;
+}
+.account__submit:hover {
+    background-color: #286ed6;
+	/*border: 1px solid #000;*/
+    cursor: pointer;
+}
+.account__label_gender input[type=radio] {
+	display: none;
+}
+.account__label_gender label {
+	display: inline-block;
+    cursor: pointer;
+    padding: 0px 24px;
+    margin: 0 24px 0 0;
+    line-height: 32px;
+	font-size: 12px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    background-color: #ffffff;
+	color: #666;
+    transition-property: background, border-color, cursor;
+    transition-duration: .1s;
+}
+
+/* Checked */
+.account__label_gender input[type=radio]:checked + label {
+	background-color: #367fee;
+	color: aliceblue;
+	font-size: 12px;
+	border: 1px solid #367fee;
+	cursor: default;
+}
+
+/* Hover */
+.account__label_gender label:hover {
+	color: #000000;
+	background-color: #efefef;
+	border: 1px solid #000000;
+}
+
+/* Disabled */
+.account__label_gender input[type=radio]:disabled + label {
+	background-color: #ffffff;
+	color: #000;
+	cursor: none;
+}
+
+@media (max-width: 900px) {
+    .register {
+        margin: 0 0;
+    }
+}
+
+@media (max-width: 700px) {
+	.select__medium {
+		width: 100%;
+	}
+	.account__label_gender label  {
+		margin: 0 0 20px 0;
+	}
+	.select__small {
+		width: 46%;
+	}
+	select {
+		margin: 0 24px 20px 0;
+	}
+	.account__label_height {
+		display: flex;
+		flex-direction: column;
+	}
+	.account__label_calendar {
+		flex-direction: row;
+	}
+	.account__input_smoke {
+		transform: scale(1.2);
+    }
+}
+
+@media (max-width: 500px) {
+	.select__medium {
+		margin-right: 20px;
+		width: 100%;
+	}
+	.account__label_smoke {
+		display: flex;
+		flex-direction: column;
+	}
+	.account__group {
+		display: flex;
+		flex-direction: row;
+		margin: 8px 20px;
+	}
+	.account__input_smoke {
+		transform: scale(1.1);
+		margin: -2px 0 4px;
+    }
+	.account__del a {
+		margin: 0 0 10px;
+	}
+	.account__label {
+		margin: 0 0 12px;
+	}
+}
+.account.register label {
+    margin: 0 0;
+}
+.account__input.border-red {
+    border: 1px solid red;
+    border-radius: 4px;
+}
+.text-red {
+    color: red;
+    /*font-weight: 800;*/
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.login__text-red {
+    color: red;
+    /*font-weight: 800;*/
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: red;
+    padding: 13px;
+    color: aliceblue;
+    border-radius: 4px;
+}
